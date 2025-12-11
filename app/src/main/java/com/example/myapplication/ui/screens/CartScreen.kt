@@ -136,7 +136,7 @@ fun CartScreen(
                             containerColor = Color.Red
                         )
                     ) {
-                        Text("Очистить корзину")
+                        Text("Очистить корзину", color = Color.White)
                     }
 
                     Spacer(modifier = Modifier.height(8.dp))

@@ -106,7 +106,10 @@ fun ItemScreen(
                 ),
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text(if (isInCart) "Удалить из корзины" else "Добавить в корзину")
+                Text(
+                    if (isInCart) "Удалить из корзины" else "Добавить в корзину",
+                    color = Color.White
+                )
             }
 
             Spacer(modifier = Modifier.height(16.dp))

@@ -81,7 +81,7 @@ fun ProfileScreen(
                         containerColor = MaterialTheme.colorScheme.primary
                     )
                 ) {
-                    Text("Информация о себе")
+                    Text("Информация о себе", color = Color.White)
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
@@ -99,7 +99,7 @@ fun ProfileScreen(
                     containerColor = Color.Red
                 )
             ) {
-                Text("Выйти")
+                Text("Выйти", color = Color.White)
             }
         }
     }

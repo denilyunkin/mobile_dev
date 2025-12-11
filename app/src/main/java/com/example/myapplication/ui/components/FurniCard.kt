@@ -107,7 +107,10 @@ fun FurniCard(
                     containerColor = if (isInCart) Color.Red else MaterialTheme.colorScheme.primary
                 )
             ) {
-                Text(if (isInCart) "Удалить из корзины" else "Добавить в корзину")
+                Text(
+                    if (isInCart) "Удалить из корзины" else "Добавить в корзину",
+                    color = Color.White
+                    )
             }
         }
     }

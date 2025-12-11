@@ -5,7 +5,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 
-
+//adb shell pm clear com.example.myapplication
 @Database(
     entities = [User::class, Furni::class, CartItem::class],
     version = 3,
